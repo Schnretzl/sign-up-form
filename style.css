@@ -1,0 +1,31 @@
+body{
+    margin: 0px 130px 0px;
+    background-color: rgb(15, 15, 15);
+}
+
+img{
+    height: 100vh;
+    width: auto;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#odin{
+    position: absolute;
+    height: 20%;
+    width: auto;
+}
+
+#left{
+    width: 50em;
+    border: 10px solid black;
+}
+
+#right{
+    width: 50em;
+    background-color: gray;
+    border: 10px solid red;
+}
