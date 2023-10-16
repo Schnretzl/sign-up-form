@@ -3,10 +3,9 @@
     src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
 }
 
-/* body{
-    margin: 0px 130px 0px;
-    background-color: rgb(15, 15, 15);
-} */
+:root{
+    --max-left-width: 360px;
+}
 
 img{
     height: 100px;
@@ -26,9 +25,10 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     height: 15%;
-    width: 100%;
+    width: 40vw;
+    max-width: var(--max-left-width);
     object-fit: contain;
     top: 30%;
     color: white;
@@ -41,7 +41,7 @@ div{
 } */
 
  #odin-img{
-    height: 60px;
+    height: 10vw;
     object-fit: contain;
 }
 
@@ -50,9 +50,9 @@ div{
     left: 0px;
     width: 40vw;
     height: 100vw;
-    max-width: 360px;
+    max-width: var(--max-left-width);
     font-family: 'Norse-Bold', serif;
-    font-size: 50px;
+    font-size: 8vw;
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
 
