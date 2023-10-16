@@ -7,11 +7,6 @@
     --max-left-width: 360px;
 }
 
-img{
-    height: 100px;
-    width: auto;
-}
-
 div{
     display: flex;
     justify-content: space-between;
@@ -30,15 +25,11 @@ div{
     width: 40vw;
     max-width: var(--max-left-width);
     object-fit: contain;
-    top: 30%;
+    top: 20%;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     min-height: 70px;
 }
-
-/* div img{
-    object-fit: cover;
-} */
 
  #odin-img{
     height: 10vw;
@@ -46,7 +37,6 @@ div{
 }
 
 #left{
-    /* position: absolute; */
     left: 0px;
     width: 40vw;
     height: 100vw;
@@ -60,18 +50,25 @@ div{
 
 #right{
     position: relative;
+    left: 0px;
     display: flex;
     flex-direction: column;
     background-color: gray;
 }
 
 .top{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     height: 40vw;
     margin-top: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mid{
-    background-color: rgb(200, 200, 200);
+    background-color: white;
+    height: 30vw;
+}
+
+.bottom{
+    background-color: rgb(223, 53, 53);
+    height: 30vw;
 }
