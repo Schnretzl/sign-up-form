@@ -3,19 +3,23 @@
     src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
 }
 
-body{
+/* body{
     margin: 0px 130px 0px;
     background-color: rgb(15, 15, 15);
-}
+} */
 
 img{
-    height: 100vh;
+    height: 100px;
     width: auto;
 }
 
 div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+#container{
+    inset-inline: ;
 }
 
 #odin-container{
@@ -26,22 +30,15 @@ div{
     height: 15%;
     width: 100%;
     object-fit: contain;
-    top: 33%;
+    top: 30%;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     min-height: 70px;
 }
 
-#odin-container img{
-    position: relative;
-    object-fit: contain;
-    min-height: 60px;
-    width: auto;
-}
-
-div img{
+/* div img{
     object-fit: cover;
-}
+} */
 
  #odin-img{
     height: 60px;
@@ -49,19 +46,22 @@ div img{
 }
 
 #left{
-    display: flex;
-    position: relative;
-    align-items: center;
-    width: 50vw;
+    /* position: absolute; */
+    left: 0px;
+    width: 40vw;
+    height: 100vw;
     max-width: 360px;
     font-family: 'Norse-Bold', serif;
     font-size: 50px;
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+
 }
 
 #right{
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 50vw;
     background-color: gray;
 }
 
@@ -69,6 +69,7 @@ div img{
     background-color: rgb(230, 230, 230);
     height: 40vw;
     margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mid{
