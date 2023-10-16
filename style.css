@@ -7,6 +7,10 @@
     --max-left-width: 360px;
 }
 
+em{
+    font-style: italic;
+}
+
 div{
     display: flex;
     justify-content: space-between;
@@ -31,7 +35,6 @@ div{
 #odin-container span{
     flex: 2;
     max-width: 90%;
-    /* max-height: 60px; */
     font-size: 60px;
 }
 
@@ -58,23 +61,34 @@ div{
     position: relative;
     left: 0px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     background-color: gray;
 }
 
+#right > div{
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 2% 4%;
+}
+
 .top{
     background-color: rgb(240, 240, 240);
-    /* height: 40vw; */
-    margin-top: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 30vh;
+    align-content: center;
+    z-index: 2;
 }
 
 .mid{
     background-color: white;
-    /* height: 30vw; */
+    flex: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .bottom{
-    background-color: rgb(223, 53, 53);
-    /* height: 30vw; */
+    background-color: rgb(230, 230, 230);
+    height: 30vh;
+    margin-top: -10px;
 }
