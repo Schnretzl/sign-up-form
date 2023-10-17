@@ -101,7 +101,10 @@ div{
 
 input, label{
     display: block;
-    margin: 10px;
+}
+
+#first_name, #email{
+    margin-right: 40px;
 }
 
 input{
@@ -112,4 +115,10 @@ input{
 input:focus{
     border: solid blue 1px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+div > .form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
 }
