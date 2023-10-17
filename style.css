@@ -9,7 +9,7 @@
 
 div{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #odin-container{
@@ -86,6 +86,8 @@ div{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
     flex-direction: column;
+    position: relative;
+    padding: 30px 0px 50px 50px;
 }
 
 #right > .mid{
@@ -96,14 +98,22 @@ div{
 .bottom{
     background-color: rgb(230, 230, 230);
     height: 30vh;
-    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 50px 50px;
+    font-family: sans-serif;
+}
+
+.bottom a{
+    color:#596D48;
+    text-decoration: none;
 }
 
 input, label{
     display: block;
 }
 
-#first_name, #email{
+#first_name, #email, #password{
     margin-right: 40px;
 }
 
@@ -121,4 +131,19 @@ div > .form-container{
     display: flex;
     flex-direction: column;
     margin: 10px 0px;
+}
+
+button{
+    background-color: #596D48;
+    color: antiquewhite;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
 }
