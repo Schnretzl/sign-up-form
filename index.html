@@ -28,15 +28,39 @@
                 You <em>know</em> you want to.</p>
             </div>
             <div class="mid">
-                <span>Let's do this!</span>
-                <form action="example.com/path" method="post">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" placeholder="Thor">
-                </form>
-                <form action="example.com/path" method="post">
-                    <label for="last_name">First Name:</label>
-                    <input type="text" id="last_name" placeholder="Odinson">
-                </form>
+                <div>
+                    <span>Let's do this!</span>
+                </div>
+                <div>
+                    <form action="example.com/path" method="get">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Thor">
+                    </form>
+                    <form action="example.com/path" method="get">
+                        <label for="last_name">First Name:</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Odinson">
+                    </form>
+                </div>
+                <div>
+                    <form action="example.com/path" method="get">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com">
+                    </form>
+                    <form action="example.com/path" method="get">
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </form>
+                </div>
+                <div>
+                    <form action="example.com/path" method="post">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </form>
+                    <form action="example.com/path" method="post">
+                        <label for="confirm_password">Confirm password:</label>
+                        <input type="password" name="confirm_password" id="confirm_password">
+                    </form>
+                </div>
             </div>
             <div class="bottom">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium harum quidem earum id doloremque ipsa eaque distinctio sint nulla libero quisquam nemo, optio sit illo mollitia fugiat aperiam unde exercitationem.
