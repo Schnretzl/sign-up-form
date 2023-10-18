@@ -147,3 +147,15 @@ button{
 button:hover{
     cursor: pointer;
 }
+
+#credit{
+    position: absolute;
+    bottom: 0px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255, .8);
+    font-size: 12px;
+    width: 40vw;
+    max-width: var(--max-left-width);
+    justify-content: center;
+    margin-bottom: 20px;
+}
