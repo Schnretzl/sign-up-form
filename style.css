@@ -117,9 +117,15 @@ input, label{
     margin-right: 40px;
 }
 
+label{
+    font-size: 14px;
+}
+
 input{
     border: solid #E5E7EB 1px;
     border-radius: 5px;
+    height: 26px;
+    font-size: 16px;
 }
 
 input:focus{
@@ -127,7 +133,7 @@ input:focus{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.error{
+input:invalid{
     border: solid red 1px;
 }
 
