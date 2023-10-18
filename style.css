@@ -146,6 +146,7 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: #50643F;
 }
 
 #credit{
